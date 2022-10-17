@@ -12,6 +12,7 @@ import { HardYSoftSkillsComponent } from './componentes/hard-y-soft-skills/hard-
 import { FooterComponent } from './componentes/footer/footer.component';
 import { ProyectosComponent } from './componentes/proyectos/proyectos.component';
 
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,9 @@ import { ProyectosComponent } from './componentes/proyectos/proyectos.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

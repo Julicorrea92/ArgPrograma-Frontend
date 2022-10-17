@@ -135,6 +135,7 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 15px;
         
     }
 
@@ -201,6 +202,7 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-bottom: 15px;
     }
 
     .logos img{
